@@ -1,0 +1,202 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+/*	NavBar	*/
+
+.navbar{
+	position: relative;
+	z-index: 1;
+}
+.navbar-brand{
+	font-family: 'Righteous', cursive;
+	font-size: 32px;
+}
+
+
+
+/*Jumbotron*/
+
+.jumbotron{
+	background-image: url(../img/jumbotron/1.jpg);
+	background-size: cover;
+	height: 520px;
+	text-align: center;
+	position: relative;
+}
+
+.jumbotron .display-4{
+	color: white;
+	margin-top: 160px;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+	font-size: 38px;
+	margin-bottom: 40px;
+}
+.jumbotron .container{
+	position: relative;
+	z-index: 1;
+}
+.jumbotron span{
+	font-weight: 500;
+}
+
+.jumbotron::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0));
+	position: absolute;
+	bottom: 0;
+}
+
+/*Panel work*/
+
+.panel-work{
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	border-radius: 12px;
+	margin-top: -110px;
+	background-color: white;
+	padding: 30px;
+}
+
+.panel-work img{
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.panel-work h4{
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 5px;
+	font-size: 16px;
+}
+
+.panel-work p{
+	font-size: 14px;
+	color: #acacac;
+	margin-top: -5px;
+	font-weight: 200;
+}
+
+/*		Pet Tabs	*/
+
+.pet-tabs {
+	margin-top: 60px;
+}
+.pet-tabs h3{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.pet-tabs a{
+	color: #1E2024 !important;
+	font-weight: 600;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0);
+}
+.pet-tabs .tab-content{
+	margin-top: 40px;
+	text-align: center;
+	border-bottom: 3px solid #B04214; 
+}
+
+.tab-content .card{
+	margin-top: 40px;
+	width: 350px;
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+}
+
+.switch-tab{
+	background-color: #D4CBC4;
+}
+
+.tab-pagination p{
+	color: #FF601D;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 60px;
+	margin-bottom: 80px;
+}
+
+/*Utility*/
+
+.klik {
+	text-transform: uppercase;
+	border-radius: 40px;
+	margin-right: 5px;
+}
+
+.klok {
+	color: white !important;
+	background-color: #FF601D;
+	text-transform: uppercase;
+	border-radius: 40px;
+	margin-right: 5px;
+}
+.card a{
+	color: white !important;
+}
+
+/*Footer*/
+
+.footer{
+	margin-top: 120px;
+	font-size: 18px;
+	color: #757171;
+	font-weight: 600;
+	font:italic;
+}
+
+/*Modal Login Register*/
+
+.modal .row{
+	margin-top: 20px;
+}
+
+
+
+/*	Desktop	*/
+
+@media (min-width: 992px) { 
+
+	/*Navbar*/
+	.navbar-brand, .nav-link{
+		color: white !important;
+		font-weight: 200px;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	}
+
+	.nav-link{
+		text-transform: uppercase;
+		margin-right: 30px;
+	}
+
+	.nav-link:hover::after{
+		content: '';
+		display: block;
+		border-bottom: 3px solid #FF601D;
+		width: 70%;
+		margin: auto;
+		padding-bottom: 5px;
+		margin-bottom: -8px;
+
+	}
+
+	/*Jumbotron*/
+	.jumbotron{
+		margin-top: -75px;
+		height: 620px;
+	}
+	.jumbotron .display-4{
+		font-size: 62px;
+	}
+
+	/*Tabs*/
+	.tab-content .card{
+	
+		width: 250px;
+	}
+
+}
