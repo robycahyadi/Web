@@ -4,12 +4,12 @@ Aplikasi web ini berguna untuk para penyedia jasa atau yayasan penyedia jasa Bab
 
 ### Fitur dan teknologi yang digunakan
 * Fitur
-	1. Pendaftaran calon babysitter
-	2. Penjadwalan test
-	3. Test Metode SAW untuk calon babysitter
+	* Pendaftaran calon babysitter
+	* Penjadwalan test
+	* Test Metode SAW untuk calon babysitter
 	
 * Teknologi
-	1. HTML, CSS, JS 
-	2. PHP
-	3. MYSQL
-	4. UI/UX ( Bootstrap SB Admin 2 )
+	* HTML, CSS, JS 
+	* PHP
+	* MYSQL
+	* UI/UX ( Bootstrap SB Admin 2 )
